@@ -1,0 +1,2 @@
+eta=0.1: loss inicial tras época 1=0.820593705, pérdida final=0.012615796, exactitud=100%, probabilidades=[0.012254 0.983709 0.988766 0.010357]
+eta=1.0: loss inicial tras época 1=0.748763934, pérdida final=0.000950745, exactitud=100%, probabilidades=[9.10000e-04 9.98746e-01 9.99154e-01 7.90000e-04]
