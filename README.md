@@ -1,2 +1,20 @@
 # Red-Neuronal-XOR-TESI
 Simulador visual de una red neuronal multicapa para resolver XOR mediante retropropagación en Python.
+TESI - ACTIVIDAD 2 - SIMULADOR VISUAL XOR
+Equipo: Espitia Zavala Gerardo y Olvera Rodriguez Bruno. Semestre 9, grupo 1951.
+
+REQUISITOS: Windows con Python 3.10+ y Visual Studio Code. Tkinter suele incluirse con Python de python.org.
+
+1) Extraer el ZIP en una carpeta.
+2) Abrir Visual Studio Code -> Archivo -> Abrir carpeta -> Proyecto_XOR_Visual.
+3) Abrir Terminal -> Nueva terminal y ejecutar:
+   py -m pip install -r requirements.txt
+   py simulador_xor.py
+   Si 'py' no funciona, usar 'python' en ambos comandos.
+4) En Laboratorio interactivo: seleccionar entrada XOR, pulsar Entrenar 1 época y observar los gradientes; pulsar Entrenar completo.
+5) En Experimentos y gráficas: ejecutar comparación y exportar resultados PNG y CSV.
+6) Revisar reporte adjunto y guardar capturas reales del simulador para exponer.
+
+NOTA: Reiniciar pesos recupera la misma semilla reproducible (17). Entrenar completo agrega épocas a las ya realizadas; reinicie antes de un entrenamiento nuevo. La tabla indica probabilidades y clase con umbral 0.5.
+
+CÓDIGO: red_xor.py implementa operaciones NumPy y retropropagación manual. simulador_xor.py construye interfaz Tkinter y gráfica Matplotlib. No usa un framework para ocultar el entrenamiento.
