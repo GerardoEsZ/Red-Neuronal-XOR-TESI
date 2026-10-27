@@ -18,3 +18,9 @@ REQUISITOS: Windows con Python 3.10+ y Visual Studio Code. Tkinter suele incluir
 NOTA: Reiniciar pesos recupera la misma semilla reproducible (17). Entrenar completo agrega épocas a las ya realizadas; reinicie antes de un entrenamiento nuevo. La tabla indica probabilidades y clase con umbral 0.5.
 
 CÓDIGO: red_xor.py implementa operaciones NumPy y retropropagación manual. simulador_xor.py construye interfaz Tkinter y gráfica Matplotlib. No usa un framework para ocultar el entrenamiento.
+
+
+
+para la primer prueba
+py -m pip install -r requirements.txt
+py simulador_xor.py
